@@ -6,7 +6,7 @@
           TF_VERSION:
             type: string
             required: true
-      pull_request:
+      pull_request: ①
         branches:
           - main
         types: [opened, synchronize]
