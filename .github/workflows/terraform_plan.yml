@@ -8,7 +8,6 @@
             required: true
       pull_request: ①
         branches:
-          #planを実行したいブランチを指定
           - main
         types: [opened, synchronize]
     
@@ -18,7 +17,6 @@
       pull-requests: write
     
     env:
-      #OpenID Connect でGithub Actions が利用するIAMロール名
       ROLE_TO_ASSUME: ${{ secrets.ROLE_TO_ASSUME }}
       AWS_REGION: ${{ secrets.AWS_REGION }}
     
