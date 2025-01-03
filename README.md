@@ -29,3 +29,5 @@ S3
 4. terraform apply
 
 ■About Github Actions
+1. terraform plan will be executed on main branch
+2. 
